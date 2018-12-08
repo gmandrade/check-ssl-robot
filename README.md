@@ -5,7 +5,7 @@
 * Pip version >= 3
 * pyopenssl version 18.0.0
 * idna version 2.6
-* requests version 2.18.4
+* requests version 2.20.1
 
 ```bash
 pip3 install -r requirements.txt
