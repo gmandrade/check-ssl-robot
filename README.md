@@ -42,4 +42,5 @@ Função `main`:
 $ ./main.py
 sys=check-ssl-robot log=WARN domain=example.com expireInDays=30 state=Expiring dateExpire=2019-01-08 23:59:59
 sys=check-ssl-robot log=WARN domain=example2.com expireInDays=25 state=Expiring dateExpire=2019-01-03 23:59:59
+sys=check-ssl-robot log=WARN domain=example3.com state=Expired dateExpire=2018-01-03 23:59:59
 ```
