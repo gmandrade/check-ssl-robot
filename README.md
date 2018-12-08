@@ -1,5 +1,16 @@
 # check-ssl-robot
 
+## Requiremets
+* Python version 3.6
+* Pip version >= 3
+* pyopenssl version 18.0.0
+* idna version 2.6
+* requests version 2.18.4
+
+```bash
+pip3 install -r requirements.txt
+```
+
 ## ADD domain to check
 * Edit `domains.conf` add a domain per line
 
@@ -27,7 +38,7 @@ Função `main`:
 
 ## Usability
 
-```
+```bash
 $ ./main.py
 sys=check-ssl-robot log=WARN domain=example.com expireInDays=30 state=Expiring dateExpire=2019-01-08 23:59:59
 sys=check-ssl-robot log=WARN domain=example2.com expireInDays=25 state=Expiring dateExpire=2019-01-03 23:59:59
